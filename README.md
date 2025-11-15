@@ -1,20 +1,15 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+   <h1 align="center">Debuff Chess ♟️</h1>
+
+   A game of chess where you choose a debuff/restriction for your opponent on their turn.
 </div>
 
-# Run and deploy your AI Studio app
+## Beginnings
 
-This contains everything you need to run your app locally.
+Started out as just a visual mock with a retro-style look:
 
-View your app in AI Studio: https://ai.studio/apps/drive/12j_mfGm1k4MWcW83wc07i1o-edPNmZXD
+<div align="center">
+   <img width="512" alt="image" src="https://github.com/user-attachments/assets/c17ec1e9-2854-487e-aa07-6f573a27f6a8" />   
+</div>
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Iterated in Google AI Studio until all the features seemed to work, referencing the mock whenever necessary. still has a couple of things that arent as desired, but working prototype.
