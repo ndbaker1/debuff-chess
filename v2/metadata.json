@@ -1,0 +1,5 @@
+{
+  "name": "Debuff Chess",
+  "description": "A futuristic, multiplayer chess game where players inflict debilitating 'debuffs' on their opponents each turn. Features a move history with board-state preview and a unique pixel-art, cyberpunk aesthetic.",
+  "requestFramePermissions": []
+}

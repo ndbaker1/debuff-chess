@@ -31,8 +31,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Build
-          env 
         run: |
+          cd v2
           npm install
           npm run build
       - name: Set up Pages
@@ -40,8 +40,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: './dist'
+          path: './v2/dist'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
