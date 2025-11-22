@@ -1,4 +1,4 @@
-import type { Debuff, Piece, Board } from "../types";
+import type { Debuff } from "../types";
 import { DebuffId, PieceType, PlayerColor } from "../types";
 import {
     CorruptedIcon,
