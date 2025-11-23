@@ -193,18 +193,4 @@ export const DEBUFFS: Record<DebuffId, Debuff> = {
     [DebuffId.GHOSTING]: GHOSTING_DEBUFF,
 };
 
-export const ALL_DEBUFFS: Debuff[] = [
-    SLOWED_DEBUFF,
-    WEAKENED_DEBUFF,
-    CORRUPTED_DEBUFF,
-    FROZEN_DEBUFF,
-    LIMITED_DEBUFF,
-    SHACKLED_DEBUFF,
-    PACIFIST_DEBUFF,
-    COWARDICE_DEBUFF,
-    ISOLATED_DEBUFF,
-    NOBILITY_LOCK_DEBUFF,
-    BACK_RANK_JAIL_DEBUFF,
-    SHORT_FUSE_DEBUFF,
-    GHOSTING_DEBUFF,
-];
+export const ALL_DEBUFFS: Debuff[] = Object.values(DEBUFFS).filter(debuff => debuff.id !== DebuffId.NONE);
